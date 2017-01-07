@@ -1,7 +1,12 @@
 #!/bin/bash
 set -e
 
-echo "SOURCE_DIR: ${SOURCE_DIR}"
+echo SOURCE_DIR: $SOURCE_DIR
+echo DEPLOY_BRANCH: $DEPLOY_BRANCH
+echo BUILD_BRANCH: $BUILD_BRANCH
+echo ENCRYPTION_LABEL: $ENCRYPTION_LABEL
+echo GIT_NAME: $GIT_NAME
+echo GIT_EMAIL: $GIT_EMAIL
 
 ## Generated folder must exist
 if [ ! -d "$SOURCE_DIR" ]; then
@@ -20,12 +25,9 @@ else
   exit 0
 fi
 
-SSH_KEY_NAME="travis_rsa"
-
 ## Git configuration
-echo "User: ${USER_NAME}(${USER_EMAIL})"
-git config --global user.email ${USER_EMAIL}
-git config --global user.name "${USER_NAME}"
+git config --global user.email ${GIT_EMAIL}
+git config --global user.name ${GIT_NAME}
 
 ## Repository URL
 REPO=$(git config remote.origin.url)
