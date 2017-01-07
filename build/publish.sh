@@ -23,10 +23,12 @@ fi
 SSH_KEY_NAME="travis_rsa"
 
 ## Git configuration
+echo "User: ${USER_NAME}(${USER_EMAIL})"
 git config --global user.email ${USER_EMAIL}
 git config --global user.name "${USER_NAME}"
 
 ## Repository URL
+echo "Repo: $(git config remote.origin.url)"
 REPO=$(git config remote.origin.url)
 REPO=${REPO/git:\/\/github.com\//git@github.com:}
 REPO=${REPO/https:\/\/github.com\//git@github.com:}
