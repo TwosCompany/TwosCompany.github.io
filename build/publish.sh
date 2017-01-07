@@ -50,3 +50,13 @@ chmod 600 ~/.ssh/${SSH_KEY_NAME}
 ssh-add ~/.ssh/${SSH_KEY_NAME}
 git config --global user.name "$GIT_NAME"
 git config --global user.email "$GIT_EMAIL"
+
+REPO_NAME=$(basename $REPO)
+TARGET_DIR=$(mktemp -d /tmp/$REPO_NAME.XXXX)
+REV=$(git rev-parse HEAD)
+git clone --branch ${DEPLOY_BRANCH} ${REPO} ${TARGET_DIR}
+rsync -rt --delete --exclude=".git" --exclude=".nojekyll" --exclude=".travis.yml" $SOURCE_DIR/ $TARGET_DIR/
+cd $TARGET_DIR
+git add -A .
+git commit --allow-empty -m "Built from commit $REV"
+git push $REPO $TARGET_BRANCH
