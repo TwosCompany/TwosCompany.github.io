@@ -25,4 +25,4 @@ script:
   - hugo
 
 after_success:
-  - "./.travis/publish.sh"
+  - "./build/publish.sh"
