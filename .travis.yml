@@ -23,4 +23,5 @@ script:
     - cd $HOME/gopath/src/github.com/TwosCompany/TwosCompany.github.io && hugo
 
 after_success:
+  - chmod a+x "./build/publish.sh"
   - "./build/publish.sh"
