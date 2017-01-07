@@ -39,8 +39,10 @@ echo "REPO: ${REPO}"
 echo "Loading key..."
 
 SSH_KEY_NAME="travis_key"
-ENCRYPTED_KEY=${ENCRYPTION_LABEL}_key
-ENCRYPTED_IV=${ENCRYPTION_LABEL}_iv
+ENCRYPTED_KEY_VAR=encrypted_${ENCRYPTION_LABEL}_key
+ENCRYPTED_IV_VAR=encrypted_${ENCRYPTION_LABEL}_iv
+ENCRYPTED_KEY=${!ENCRYPTED_KEY_VAR}
+ENCRYPTED_IV=${!ENCRYPTED_IV_VAR}
 
 openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in build/${SSH_KEY_NAME}.enc -out ~/.ssh/${SSH_KEY_NAME} -d
 eval `ssh-agent -s`
