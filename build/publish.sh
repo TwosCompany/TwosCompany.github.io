@@ -37,3 +37,12 @@ echo "REPO: ${REPO}"
 
 ## Loading SSH key
 echo "Loading key..."
+
+ENCRYPTED_KEY_VAR=encrypted_${ENCRYPTION_LABEL}_key
+ENCRYPTED_IV_VAR=encrypted_${ENCRYPTION_LABEL}_iv
+openssl aes-256-cbc -K $ENCRYPTED_KEY -iv $ENCRYPTED_IV -in travis_key.enc -out travis_key -d
+chmod 600 travis_key
+eval `ssh-agent -s`
+ssh-add travis_key
+git config --global user.name "$GIT_NAME"
+git config --global user.email "$GIT_EMAIL"

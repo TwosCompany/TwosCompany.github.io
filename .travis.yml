@@ -15,7 +15,7 @@ env:
     - DEPLOY_BRANCH="master"
     - GIT_NAME="David Shorter"
     - GIT_EMAIL="shorter.david@gmail.com"
-    - ENCRYPTION_LABEL="travis_key"
+    - ENCRYPTION_LABEL="encrypted_67f388fcc20e"
 
 install:
     - go get -u -v github.com/kardianos/govendor
