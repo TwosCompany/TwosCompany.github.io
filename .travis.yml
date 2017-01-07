@@ -9,7 +9,8 @@ env:
   - SOURCE_DIR="public"
   - DEPLOY_BRANCH="source"
 before_install:
-   - openssl aes-256-cbc -K $encrypted_e1bda4f7cbde_key -iv $encrypted_e1bda4f7cbde_iv -in travis_key.enc -out travis_key -d
+- openssl aes-256-cbc -K $encrypted_e1bda4f7cbde_key -iv $encrypted_e1bda4f7cbde_iv
+  -in travis_key.enc -out travis_key -d
 before_script:
 - go get -u -v github.com/kardianos/govendor
 - go get -u -v github.com/spf13/hugo
