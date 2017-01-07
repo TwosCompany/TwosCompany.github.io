@@ -8,10 +8,6 @@ sudo: false
 git:
   depth: 10
 
-branches:
-  only:
-    - hugo
-
 env:
   global:
     - SOURCE_DIR="public"
