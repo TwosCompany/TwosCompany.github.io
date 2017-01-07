@@ -15,10 +15,12 @@ env:
     - DEPLOY_BRANCH="master"
 
 install:
-  - go get -u -v github.com/spf13/hugo
+    - go get -u -v github.com/kardianos/govendor
+    - go get -u -v github.com/spf13/hugo
+    - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
 
 script:
-  - hugo
+    - cd $HOME/gopath/src/github.com/TwosCompany/TwosCompany.github.io && hugo
 
 after_success:
   - "./build/publish.sh"
