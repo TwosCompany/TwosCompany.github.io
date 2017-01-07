@@ -28,8 +28,10 @@ git config --global user.email ${USER_EMAIL}
 git config --global user.name "${USER_NAME}"
 
 ## Repository URL
-echo "Repo: $(git config remote.origin.url)"
 REPO=$(git config remote.origin.url)
 REPO=${REPO/git:\/\/github.com\//git@github.com:}
 REPO=${REPO/https:\/\/github.com\//git@github.com:}
+echo "REPO: ${REPO}"
 
+## Loading SSH key
+echo "Loading key..."
