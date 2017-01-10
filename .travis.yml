@@ -17,7 +17,7 @@ install:
 
 script:
     - ./hugo -v
-	
+
 after_success:
     - chmod a+x "./build/publish.sh"
     - "./build/publish.sh"
