@@ -16,6 +16,7 @@ install:
     - ./build/install-hugo.sh
 
 script:
+    - ./hugo version
     - ./hugo -v
 
 after_success:
