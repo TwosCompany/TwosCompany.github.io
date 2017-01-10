@@ -1,22 +1,31 @@
 baseurl = "//twoscompany.github.io/"
 languageCode = "en-us"
-title = "WidgetCo Inc"
+title = "Dating Service Auckland | Dating Agency | Introduction Agency"
 [params]
-    description = "The best widgets in the world!"
+    header = "Two's Company Ltd"
+    description = "Introducing Single People since 2003"
 
 [[params.social]]
     title = "email"
     icon = "envelope-o"
-    url = "mailto:bushbama@whitehouse.gov"
+    url = "mailto:sasha@twoscompany.co.nz"
 [[params.social]]
-    title = "twitter"
-    icon = "twitter"
-    url = "https://twitter.com/SBootstrap"
+    title = "phone"
+    icon = "phone"
+    url = "callto:0800021522"
 [[params.social]]
-    title = "github"
-    icon = "github"
-    url = "https://github.com/IronSummitMedia/startbootstrap"
+    title = "mobile"
+    icon = "phone"
+    url = "tel:021522922"
 [[params.social]]
     title = "linkedin"
     icon = "linkedin"
     url = "http://linkedin.com/yourusername"
+[[params.social]]
+    title = "twitter"
+    icon = "twitter"
+    url = "http://twitter.com/yourusername"
+[[params.social]]
+    title = "facebook"
+    icon = "facebook"
+    url = "http://facebook.com/yourusername"
