@@ -1,7 +1,5 @@
 language: generic
 sudo: false
-git:
-  depth: 10
 env:
   global:
     - SOURCE_DIR="public"
