@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>//twoscompany.github.io/about/about/</loc>
-  </url>
-  
-  <url>
-    <loc>//twoscompany.github.io/about/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>//twoscompany.github.io/services/widgets/</loc>
   </url>
   
   <url>
-    <loc>//twoscompany.github.io/services/</loc>
+    <loc>//twoscompany.github.io/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>//twoscompany.github.io/</loc>
+    <loc>//twoscompany.github.io/home/home/</loc>
+  </url>
+  
+  <url>
+    <loc>//twoscompany.github.io/home/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//twoscompany.github.io/services/</loc>
     <priority>0</priority>
   </url>
   

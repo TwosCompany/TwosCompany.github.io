@@ -1,22 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dating Service Auckland | Dating Agency | Introduction Agency</title>
-    <link>//twoscompany.github.io/index.xml</link>
-    <description>Recent content on Dating Service Auckland | Dating Agency | Introduction Agency</description>
+    <title>Homes on Dating Service Auckland | Dating Agency | Introduction Agency</title>
+    <link>//twoscompany.github.io/home/index.xml</link>
+    <description>Recent content in Homes on Dating Service Auckland | Dating Agency | Introduction Agency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="//twoscompany.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Customized Widgets</title>
-      <link>//twoscompany.github.io/services/widgets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//twoscompany.github.io/services/widgets/</guid>
-      <description>&lt;p&gt;We specialize in bespoke widgets, built to your specification.&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="//twoscompany.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Home</title>
