@@ -6,6 +6,8 @@ languageCode = "en-us"
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
+# Google Maps license key
+googleMapsLicense = "AIzaSyCHgw09wfn_Cthe1zUOomIutzgstfS_Psc"
 # Define the number of posts per page
 paginate = 10
 
