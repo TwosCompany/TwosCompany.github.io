@@ -23,7 +23,7 @@ install:
     - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
 
 script:
-    - cd $HOME/gopath/src/github.com/TwosCompany/TwosCompany.github.io && hugo -v
+    - cd $HOME/gopath/src/github.com/TwosCompany/TwosCompany.github.io && hugo -v -t 'hugo-universal-theme'
 
 after_success:
   - chmod a+x "./build/publish.sh"
