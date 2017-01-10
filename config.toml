@@ -6,7 +6,6 @@ languageCode = "en-us"
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-
 # Define the number of posts per page
 paginate = 10
 
