@@ -14,7 +14,7 @@ install:
     - ./build/install-hugo.sh
 
 script:
-    - git clone https://github.com/devcows/hugo-universal-theme ./themes/hugo-universal-theme
+    - git clone https://github.com/devcows/hugo-universal-theme /home/travis/build/TwosCompany/TwosCompany.github.io/themes/hugo-universal-theme
     - ./hugo version
     - ./hugo -v
 
