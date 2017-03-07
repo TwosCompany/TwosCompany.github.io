@@ -2,9 +2,9 @@
 
 # TwosCompany.github.io
 
-# Source
+# source code
 
-Source is setup into two branches
+Source code is setup into two branches
 * `master` : The master branch with the generated hugo website (No changes to be made here)
 * `source` : The source branch which is used to generate the [static site](https://twoscompany.github.io/) using [hugo](https://gohugo.io/)
 
