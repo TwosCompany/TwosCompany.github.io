@@ -11,7 +11,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
+    author = "shorter.david@gmail.com"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -34,11 +34,11 @@ paginate = 10
     # Enable the contact form by entering your Formspree.io email
     email = "sasha@twoscompany.co.nz"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>Two's Company Dating Agency is Auckland's most selective dating service, dedicated to personalised matchmaking and introduction services for professional singles since 2003.</p>"
+    copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/logo.png"
-    address = """<p><strong>Twos Company.</strong>
+    address = """<p><strong>Two's Company</strong>
         <br>27-65 Remuera Rd
         <br>Newmarket
         <br>1050
