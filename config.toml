@@ -47,8 +47,8 @@ paginate = 10
         <strong>New Zealand</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "-36.871644"
+    longitude = "174.7772232"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
