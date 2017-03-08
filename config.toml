@@ -101,7 +101,7 @@ paginate = 10
 
 [params.see_more]
     enable = true
-    icon = "fa fa-file-code-o"
+    icon = "fa fa-venus-mars"
     title = "Do you want to join now?"
     subtitle = "Nothing happens to a person who does nothing. Tired of playing the dating game? Let us do the hard work for you, so you can focus on what dating should be about - having fun!"
     link_url = "/contact/"
