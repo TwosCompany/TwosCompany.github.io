@@ -17,7 +17,7 @@ paginate = 10
     style = "default"
 
     # Google Maps license key
-    googleMapsLicense = ""
+    googleMapsLicense = "AIzaSyDF8vBLs65S2T_cOtVuZxxKcf5Gs2bYu9w"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
