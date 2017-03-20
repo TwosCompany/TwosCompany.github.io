@@ -32,7 +32,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "sasha@twoscompany.co.nz"
+    email = "shorter.david@gmail.com"
 
     about_us = "<p>Two's Company Dating Agency is Auckland's most selective dating service, dedicated to personalised matchmaking and introduction services for professional singles since 2003.</p>"
     copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
@@ -53,27 +53,27 @@ paginate = 10
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
 
-[[menu.main]]
+[[params.menu]]
     name = "Home"
     url  = "/"
     weight = 1
 
-[[menu.main]]
+[[params.menu]]
     name = "Fees"
     url  = "/fees/"
     weight = 2
 	
-[[menu.main]]
+[[params.menu]]
     name = "Blog"
     url  = "/blog/"
     weight = 3
 
-[[menu.main]]
+[[params.menu]]
     name = "FAQ"
     url  = "/faq/"
     weight = 4
 
-[[menu.main]]
+[[params.menu]]
     name = "Contact"
     url  = "/contact/"
     weight = 5
