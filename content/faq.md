@@ -1,7 +1,7 @@
 +++
 title = "FAQ"
 description = "Twos Company is an Auckland based dating agency for NZ singles.  It is our goal as a match making service to connect singles with complimentary lifestyles, interests and personalities.  Join Now to experience an introduction agency with a difference."
-keywords = ["dating", singles", introductions", dating service", dating agency", introduction agency", internet dating", auckland", auckland dating", personal dating", personal introductions", new zealand dating", men", women", best dating agency", matchmaker", match making", meeting people", professional", personals", love", adult dating agencies", sites", romance", "questions", "FAQ", "frequently asked questions"]
+keywords = ["dating", "singles", "introductions", "dating service", "dating agency", "introduction agency", "internet dating", "auckland", "auckland dating", "personal dating", "personal introductions", "new zealand dating", "men", "women", "best dating agency", "matchmaker", "match making", "meeting people", "professional", "personals", "love", "adult dating agencies", "sites", "romance", "questions", "FAQ", "frequently asked questions"]
 +++
 
 ## 1.  WHAT IS OUR SUCCESS RATE?

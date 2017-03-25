@@ -10,13 +10,11 @@ googleAnalytics = ""
 # Define the number of posts per page
 paginate = 10
 
-
-
 [params]
     viewMorePostLink = "/blog/"
     author = "shorter.david@gmail.com"
-    defaultKeywords = ["dating", singles", introductions", dating service", dating agency", introduction agency", internet dating", auckland", auckland dating", personal dating", personal introductions", new zealand dating", men", women", best dating agency", matchmaker", match making", meeting people", professional", personals", love", adult dating agencies", sites", romance"]
-    defaultDescription = "Take the effort out of meeting eligible", professional single people", with Two's Company Dating Agency - Auckland's most selective dating service."
+    defaultDescription = "Take the effort out of meeting eligible, professional single people, with Two's Company Dating Agency - Auckland's most selective dating service."
+    defaultKeywords = ["dating", "singles", "introductions", "dating service", "dating agency", "introduction agency", "internet dating", "auckland", "auckland dating", "personal dating", "personal introductions", "new zealand dating", "men", "women", "best dating agency", "matchmaker", "match making", "meeting people", "professional", "personals", "love", "adult dating agencies", "sites", "romance"]
 
     # Style options: default (light-blue)", blue", green", marsala", pink", red", turquoise", violet
     style = "default"
@@ -38,9 +36,8 @@ paginate = 10
     #
     # Enable the contact form by entering your Formspree.io email
     email = "shorter.david@gmail.com"
-
-    about_us = "<p>Two's Company Dating Agency is Auckland's most selective dating service", dedicated to personalised matchmaking and introduction services for professional singles since 2003.</p>"
-    copyright = "Copyright (c) 2003 - 2017", Two's Company LTD; all rights reserved."
+    about_us = "<p>Two's Company Dating Agency is Auckland's most selective dating service, dedicated to personalised matchmaking and introduction services for professional singles since 2003.</p>"
+    copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/logo.png"
     address = """<p><strong>Two's Company</strong>
@@ -113,7 +110,7 @@ paginate = 10
     enable = true
     icon = "fa fa-venus-mars"
     title = "Do you want to join now?"
-    subtitle = "Nothing happens to a person who does nothing. Tired of playing the dating game? Let us do the hard work for you", so you can focus on what dating should be about - having fun!"
+    subtitle = "Nothing happens to a person who does nothing. Tired of playing the dating game? Let us do the hard work for you, so you can focus on what dating should be about - having fun!"
     link_url = "/contact/"
     link_text = "Join Now"
 
@@ -128,4 +125,4 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "Latest News"
-    subtitle = "Check out what the media is saying about Introduction Agency - Two's Company", Aucklands most respected Dating Agency since 2003"
+    subtitle = "Check out what the media is saying about Introduction Agency - Two's Company, Aucklands most respected Dating Agency since 2003"
