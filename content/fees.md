@@ -1,5 +1,6 @@
 +++
 title = "Fees"
+description = "Twos Company Dating Agency provides and honest, professional and affordable service for NZ singles.  Check out our fees for match maker services and join now for the opportunity to meet compatible singles."
 +++
 
 # The joining fee is  which includes 4 introductions.
