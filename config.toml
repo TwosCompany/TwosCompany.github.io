@@ -66,7 +66,7 @@ paginate = 10
     weight = 2
 	
 [[menu.main]]
-    name = "Blog"
+    name = "Press"
     url  = "/blog/"
     weight = 3
 
@@ -115,7 +115,7 @@ paginate = 10
     link_text = "Join Now"
 
 [params.clients]
-    enable = false
+    enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -123,6 +123,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "Latest News"
     subtitle = "Check out what the media is saying about Introduction Agency - Two's Company, Aucklands most respected Dating Agency since 2003"
