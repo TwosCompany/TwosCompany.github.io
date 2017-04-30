@@ -1,8 +1,8 @@
 +++
 title = "Good morning Two's Company"
 date = "2012-03-19T13:07:31+02:00"
-tags = ["ipsum"]
-categories = ["video"]
+tags = ["GoodMorning"]
+categories = ["Press"]
 banner = "img/blog/GoodMorning.jpg"
 +++
 
