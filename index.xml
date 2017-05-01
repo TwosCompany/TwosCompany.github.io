@@ -179,12 +179,16 @@
     </item>
     
     <item>
-      <title>Success Stories</title>
+      <title>Stories</title>
       <link>https://twoscompany.github.io/stories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://twoscompany.github.io/stories/</guid>
-      <description>&lt;p&gt;TODO&lt;/p&gt;
+      <description>
+
+&lt;h1 id=&#34;see-what-others-are-saying&#34;&gt;See what others are saying&lt;/h1&gt;
+
+&lt;p&gt;We check in with our clients after three months of being together and again after six months. This is what our clients are saying about us.&lt;/p&gt;
 </description>
     </item>
     
