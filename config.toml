@@ -17,7 +17,7 @@ paginate = 10
     defaultKeywords = ["dating", "singles", "introductions", "dating service", "dating agency", "introduction agency", "internet dating", "auckland", "auckland dating", "personal dating", "personal introductions", "new zealand dating", "men", "women", "best dating agency", "matchmaker", "match making", "meeting people", "professional", "personals", "love", "adult dating agencies", "sites", "romance"]
 
     # Style options: default (light-blue)", blue", green", marsala", pink", red", turquoise", violet
-    style = "default"
+    style = "gold"
 
     # Google Maps license key
     googleMapsApiKey = "AIzaSyDF8vBLs65S2T_cOtVuZxxKcf5Gs2bYu9w"
