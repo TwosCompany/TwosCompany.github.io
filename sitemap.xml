@@ -75,6 +75,10 @@
   </url>
   
   <url>
+    <loc>https://twoscompany.github.io/stories/</loc>
+  </url>
+  
+  <url>
     <loc>https://twoscompany.github.io/tags/</loc>
     <priority>0</priority>
   </url>
