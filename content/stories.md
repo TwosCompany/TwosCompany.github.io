@@ -1,7 +1,8 @@
 +++
-title = "Success Stories"
-description = "Twos Company Dating Agency provides and honest, professional and affordable service for NZ singles.  Check out our fees for match maker services and join now for the opportunity to meet compatible singles."
+title = "Stories"
+id = "stories"
 +++
 
-TODO
+# See what others are saying
 
+We check in with our clients after three months of being together and again after six months. This is what our clients are saying about us.
