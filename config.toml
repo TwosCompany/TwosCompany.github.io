@@ -56,29 +56,24 @@ paginate = 10
     blog = "/blog/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    name = "Home"
-    url  = "/"
+    name = "Success Stories"
+    url  = "/stories/"
     weight = 1
 
 [[menu.main]]
-    name = "Fees"
-    url  = "/fees/"
-    weight = 2
-	
-[[menu.main]]
     name = "Press"
     url  = "/blog/"
-    weight = 3
+    weight = 2
 
 [[menu.main]]
     name = "FAQ"
     url  = "/faq/"
-    weight = 4
-
+    weight = 3
+    
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 5
+    weight = 4
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
@@ -105,6 +100,9 @@ paginate = 10
     # For more informtion take a look at the README.
     title = "Success Stories"
     subtitle = "We check in with our clients after three months of being together and again after six months. This is what our clients are saying about us."
+    link_url = "/stories/"
+    link_text = "Successful Stories"
+    link_description = "Click here to read about other couples who are now loved up"
 
 [params.see_more]
     enable = true
@@ -113,6 +111,7 @@ paginate = 10
     subtitle = "Nothing happens to a person who does nothing. Tired of playing the dating game? Let us do the hard work for you, so you can focus on what dating should be about - having fun!"
     link_url = "/contact/"
     link_text = "Join Now"
+    link_description = "Join Now"
 
 [params.clients]
     enable = true
