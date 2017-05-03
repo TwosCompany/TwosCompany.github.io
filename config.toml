@@ -109,6 +109,14 @@ paginate = 10
     link_url = "/contact/"
     link_text = "Join Now"
     link_description = "Join Now"
+	
+[params.header]
+    enable = true
+    title = "Finding life partners for the world’s most exceptional people"
+    link_url = "/contact/"
+    link_text = "Contact Us"
+	link2_url = "https://youtu.be/-AC75mxHQFA"
+    link2_text = "View Video"
 
 [params.clients]
     enable = true
@@ -120,5 +128,6 @@ paginate = 10
 
 [params.recent_posts]
     enable = false
+	enableFooter = true
     title = "Latest News"
     subtitle = "Check out what the media is saying about Introduction Agency - Two's Company, Aucklands most respected Dating Agency since 2003"
