@@ -1771,8 +1771,8 @@ fieldset[disabled] .btn-template-primary.active {
 .bar.background-white {
   background: #fff;
 }
-.bar.background-image-fixed-1 {
-  background: url('../img/fixed-background-1.jpg') center top no-repeat;
+.bar.background-image-fixed-header {
+  background: url('../img/header/hands.jpg') center bottom no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
