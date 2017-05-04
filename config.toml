@@ -39,6 +39,7 @@ paginate = 10
     about_us = "<p>Two's Company Dating Agency is Auckland's most selective dating service, dedicated to personalised matchmaking and introduction services for professional singles since 2003.</p>"
     copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
     date_format = "2006-01-02"
+    contacttext = "Enquire Now"
     logo = "img/logo.png"
     address = """<p><strong>Two's Company</strong>
         <br>Phone : 0800 021 522
@@ -114,7 +115,7 @@ paginate = 10
     enable = true
     title = "Finding life partners for the world’s most exceptional people"
     link_url = "/contact/"
-    link_text = "Contact Us"
+    link_text = "Enquire Now"
 	link2_url = "https://youtu.be/-AC75mxHQFA"
     link2_text = "View Video"
 
