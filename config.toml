@@ -99,8 +99,8 @@ paginate = 10
     title = "Success Stories"
     subtitle = "We check in with our clients after three months of being together and again after six months. This is what our clients are saying about us."
     link_url = "/stories/"
-    link_text = "Successful Stories"
-    link_description = "Click here to read about other couples who are now loved up"
+    link_text = "Success Stories"
+    link_description = "Click here to read about other people just like you who we have helped to meet someone special."
 
 [params.see_more]
     enable = true
