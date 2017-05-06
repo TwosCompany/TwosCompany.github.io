@@ -1,0 +1,35 @@
+<div class="container" id="fees">
+    <div class="row">
+        <div class="col-md-12">
+            <section>
+                   {{ .Content }}
+            </section>
+        </div>
+
+        <div class="col-md-12">
+            <section class="fee">
+                {{ if gt (len .Site.Data.fees) 0 }}
+                {{ range sort .Site.Data.fees "weight" }}
+
+                    <div class="row">
+                        <div class="col-lg-1 col-md-2 col-xs-3" >
+                            <div class="icon" style="text-align: center; vertical-align: middle">
+                                <i class="{{ .icon }} fa-2x" style="color: darkgoldenrod"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-11 col-md-10 col-xs-9" style="height: 80px; vertical-align: middle;">
+                            <div style="vertical-align: middle; height: 100%">
+                                {{ .name }}
+                            </div>
+                           
+                        </div>
+                    </div>
+                {{ end }}
+                {{ end }}
+                <br>
+                <a href="/contact" class="btn btn-small btn-template-main">Contact Us</a>
+                <a href="/stories" class="btn btn-small btn-template-main">Success Stories</a>
+            </section>
+        </div>
+    </div>
+</div>

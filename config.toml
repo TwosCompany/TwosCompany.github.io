@@ -132,3 +132,8 @@ paginate = 10
 	enableFooter = true
     title = "Latest News"
     subtitle = "Check out what the media is saying about Introduction Agency - Two's Company, Aucklands most respected Dating Agency since 2003"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
