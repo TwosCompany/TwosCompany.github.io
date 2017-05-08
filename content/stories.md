@@ -1,5 +1,5 @@
 +++
-title = "Stories"
+title = "Success Stories"
 id = "stories"
 +++
 
