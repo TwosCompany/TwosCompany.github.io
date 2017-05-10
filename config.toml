@@ -57,21 +57,25 @@ paginate = 10
     name = "Success Stories"
     url  = "/stories/"
     weight = 1
+    border = false
 
 [[menu.main]]
     name = "Press"
     url  = "/blog/"
     weight = 2
+    border = false
 
 [[menu.main]]
     name = "FAQ"
     url  = "/faq/"
     weight = 3
+    border = false
     
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
     weight = 4
+    border = true
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
