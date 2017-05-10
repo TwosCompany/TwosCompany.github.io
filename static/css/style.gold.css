@@ -1,6 +1,7 @@
 .textborder{
   border: #b7a57e;
   border-style: solid; 
+  display:inline 
 }
 
 .clearfix:before,
