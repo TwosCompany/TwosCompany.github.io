@@ -12,16 +12,13 @@
                 {{ range sort .Site.Data.fees "weight" }}
 
                     <div class="row">
-                        <div class="col-lg-1 col-md-2 col-xs-3" >
-                            <div class="icon" style="text-align: center; vertical-align: middle">
+                        <div class="col-lg-1 col-md-2 col-xs-4" >
+                            <div class="icon">
                                 <i class="{{ .icon }} fa-2x" style="color: darkgoldenrod"></i>
                             </div>
                         </div>
-                        <div class="col-lg-11 col-md-10 col-xs-9" style="height: 80px; vertical-align: middle;">
-                            <div style="vertical-align: middle; height: 100%">
+                        <div class="col-lg-11 col-md-10 col-xs-8 vertical-centre">
                                 {{ .name }}
-                            </div>
-                           
                         </div>
                     </div>
                 {{ end }}
