@@ -70,13 +70,19 @@ paginate = 10
     url  = "/faq/"
     weight = 3
     border = false
-    
+
+[[menu.main]]
+    name = "Fees"
+    url  = "/fees/"
+    weight = 4
+    border = false
+
 [[menu.main]]
     name = "Contact"
     url  = "/contact/"
-    weight = 4
-    border = true
-
+    weight = 5
+    border = false
+	
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = false
