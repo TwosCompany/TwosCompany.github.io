@@ -144,6 +144,7 @@ div.section {
   border-radius: 40px;
   border: solid 1px #fff;
   font-size: 20px;
+  text-align: center;
 }
 .icon.icon-lg {
   font-size: 30px;
