@@ -1,7 +1,7 @@
 .textborder{
-  border: #b7a57e;
-  border-style: solid; 
-  display:inline 
+  outline-color: #b7a57e;
+  outline-style: solid; 
+  outline-offset:8px; 
 }
 
 .clearfix:before,

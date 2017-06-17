@@ -31,7 +31,7 @@
                     </ul>
                     {{ else }}
                     {{if eq .Name "Contact"}}
-                    <a href="{{ .URL }}"><div class="textborder">{{ .Name }}</div></a>
+                    <a href="{{ .URL }}"><div><span class="textborder">{{ .Name }}</span></div></a>
                     {{else}}
                     <a href="{{ .URL }}"><div>{{ .Name }}</div></a>
                     {{ end }}
