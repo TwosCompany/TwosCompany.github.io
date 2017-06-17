@@ -54,6 +54,12 @@ paginate = 10
     blog = "/blog/:year/:month/:day/:filename/"
 
 [[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 0
+    border = false	
+	
+[[menu.main]]
     name = "Success Stories"
     url  = "/stories/"
     weight = 1
