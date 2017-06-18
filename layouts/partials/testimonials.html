@@ -19,11 +19,14 @@
                     {{ range sort .Site.Data.testimonials "date" "desc" }}
                     {{if .featured}}
                     <li class="item">
-                        <div class="testimonial same-height-always">
+                        <div class="testimonial">
                             <div class="text">
-                                <p>{{ .text | markdownify }}</p>
+                                {{ .text | markdownify }}
                             </div>
                             <div class="bottom">
+                                <div>
+                                    <a href="/stories#{{.id}}">Read more</a>
+                                </div>
                                 <div class="icon"><i class="fa fa-quote-left"></i>
                                 </div>
                                 <div class="name-picture">

@@ -19,6 +19,7 @@
                         </div>
                     </div>
                     <div class="col-md-10 col-xs-9">
+                        <a name="{{ .id }}"></a>
                         <p>{{ .text | markdownify }}</p>
                         <p><h5>{{ .name }} - {{ dateFormat "January" .date }} {{ dateFormat "2006" .date }}</h5></p>
                     </div>

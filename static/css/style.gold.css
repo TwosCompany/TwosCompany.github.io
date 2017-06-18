@@ -1,7 +1,7 @@
 .textborder{
-  outline-color: #b7a57e;
-  outline-style: solid; 
-  outline-offset:8px; 
+  border: #b7a57e;
+  border-style: solid; 
+  display:inline 
 }
 
 .clearfix:before,
@@ -1300,7 +1300,19 @@ fieldset[disabled] .btn-template-primary.active {
 .testimonials .item .testimonial .text {
   color: #999999;
   margin-bottom: 40px;
+  display: block;
+  /* Fallback for non-webkit */
+  display: -webkit-box;
+  max-width: 400px;
+  height: 250px;
+  /* Fallback for non-webkit */
+  line-height: 1.4;
+  -webkit-line-clamp: 13;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+
 .testimonials .item .testimonial .bottom {
   position: absolute;
   left: 0;
