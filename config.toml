@@ -5,6 +5,7 @@ theme = "hugo-universal-theme"
 languageCode = "en-nz"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
+pluralizelisttitles = "false"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 # Define the number of posts per page
@@ -51,7 +52,7 @@ paginate = 10
     longitude = "174.7772232"
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    press = "/press/:year/:month/:day/:filename/"
 
 [[menu.main]]
     name = "Home"
@@ -67,7 +68,7 @@ paginate = 10
 
 [[menu.main]]
     name = "Press"
-    url  = "/blog/"
+    url  = "/press/"
     weight = 2
     border = false
 
