@@ -316,6 +316,7 @@ ul.list-style-none {
 }
 .navbar {
   border: none;
+  font-family: 'Shadows Into Light', cursive;
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
@@ -527,7 +528,7 @@ body.boxed .navbar-affixed-top.affix {
 /* buttons  */
 .btn {
   font-weight: 700;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -752,7 +753,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 #intro .item {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   height: 100%;
 }
 #intro .item h1 {
@@ -1089,7 +1090,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 30px 10px 10px -71px;
   color: #fff;
   background-color: #b7a57e;
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Shadows Into Light', cursive;
 }
 .ribbon .theribbon:before,
 .ribbon .theribbon:after {
@@ -1770,7 +1771,7 @@ fieldset[disabled] .btn-template-primary.active {
    background-size:cover;
    width: 100%;
    height: 100%;
-   opacity : 0.3;
+   opacity : 0.4;
    z-index: -1;
 }
 
@@ -1781,7 +1782,7 @@ fieldset[disabled] .btn-template-primary.active {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: #f9e3b1;    
+    background: #b7a57e;    
 }
 
 
@@ -2708,7 +2709,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* Original Boostrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   text-transform: uppercase;
   background-color: none;
   letter-spacing: 0.08em;
@@ -3420,7 +3421,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   font-weight: 900;
   line-height: 1.1;
   color: #333333;
