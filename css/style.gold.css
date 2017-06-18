@@ -1770,7 +1770,7 @@ fieldset[disabled] .btn-template-primary.active {
    background-size:cover;
    width: 100%;
    height: 100%;
-   opacity : 0.4;
+   opacity : 0.3;
    z-index: -1;
 }
 
@@ -1781,7 +1781,7 @@ fieldset[disabled] .btn-template-primary.active {
     position: absolute;
     top: 0px;
     left: 0px;
-    background: #b7a57e;    
+    background: #f9e3b1;    
 }
 
 
