@@ -2,38 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://twoscompany.github.io/blog/2015/05/03/educational-man-drought-slim-pickings-in-schooled-men/</loc>
+    <loc>https://twoscompany.github.io/press/2015/05/03/educational-man-drought-slim-pickings-in-schooled-men/</loc>
     <lastmod>2015-05-03T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://twoscompany.github.io/blog/2015/05/03/intellectual-man-drought-foils-search-for-mr-right---copy/</loc>
+    <loc>https://twoscompany.github.io/press/2015/05/03/intellectual-man-drought-foils-search-for-mr-right---copy/</loc>
     <lastmod>2015-05-03T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://twoscompany.github.io/blog/2015/02/14/from-cinderella-to-casual-sex/</loc>
+    <loc>https://twoscompany.github.io/press/2015/02/14/from-cinderella-to-casual-sex/</loc>
     <lastmod>2015-02-14T09:56:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://twoscompany.github.io/blog/2012/03/19/good-morning/</loc>
+    <loc>https://twoscompany.github.io/press/2012/03/19/good-morning/</loc>
     <lastmod>2012-03-19T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://twoscompany.github.io/blog/</loc>
-    <lastmod>2015-05-03T05:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -83,6 +76,13 @@
   
   <url>
     <loc>https://twoscompany.github.io/categories/press/</loc>
+    <lastmod>2015-05-03T05:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://twoscompany.github.io/press/</loc>
     <lastmod>2015-05-03T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
