@@ -114,7 +114,7 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Success Stories"
-    subtitle = "We check in with our clients after three months of being together and again after six months. This is what our clients are saying about us."
+    subtitle = "We check in with our clients three months after a successful match and again after six months. These are some of their comments."
     link_url = "/stories/"
     link_text = "Success Stories"
     link_description = "Click here to read about other people just like you who we have helped to meet someone special."
