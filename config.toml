@@ -37,7 +37,7 @@ paginate = 10
     #
     # Enable the contact form by entering your Formspree.io email
     email = "shorter.david@gmail.com"
-    about_us = "<p>Two's Company Dating Agency is Auckland's most selective dating service, dedicated to personalised matchmaking and introduction services for professional singles since 2003.</p>"
+    about_us = "<p>Two’s Company Dating Agency is Auckland’s most selective dating service, dedicated to personalised matchmaking and introductions for professionals singles since 2003.</p>"
     copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
     date_format = "2006-01-02"
     contacttext = "Enquire Now"
@@ -125,8 +125,8 @@ paginate = 10
     title = "Email now for more information"
     subtitle = "Nothing happens to a person who does nothing. Tired of playing the dating game? Let us do the hard work for you, so you can focus on what dating should be about - having fun!"
     link_url = "/contact/"
-    link_text = "Join Now"
-    link_description = "Join Now"
+    link_text = "Enquire Now"
+    link_description = "Enquire Now"
 	
 [params.header]
     enable = true
