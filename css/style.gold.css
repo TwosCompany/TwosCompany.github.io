@@ -339,7 +339,7 @@ ul.list-style-none {
 }
 .navbar {
   border: none;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Julius Sans One', sans-serif;
 }
 .navbar ul.nav > li > a {
   text-transform: uppercase;
@@ -551,7 +551,7 @@ body.boxed .navbar-affixed-top.affix {
 /* buttons  */
 .btn {
   font-weight: 700;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
@@ -776,7 +776,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-size: cover;
 }
 #intro .item {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   height: 100%;
 }
 #intro .item h1 {
@@ -1113,7 +1113,7 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 30px 10px 10px -71px;
   color: #fff;
   background-color: #b7a57e;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Julius Sans One', sans-serif;
 }
 .ribbon .theribbon:before,
 .ribbon .theribbon:after {
@@ -2732,7 +2732,7 @@ fieldset[disabled] .btn-template-primary.active {
 /* Original Boostrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   text-transform: uppercase;
   background-color: none;
   letter-spacing: 0.08em;
@@ -3444,7 +3444,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: 900;
   line-height: 1.1;
   color: #333333;
