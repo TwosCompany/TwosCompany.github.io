@@ -117,12 +117,12 @@ paginate = 10
     subtitle = "We check in with our clients three months after a successful match and again after six months. These are some of their comments."
     link_url = "/stories/"
     link_text = "Success Stories"
-    link_description = "Click here to read about other people just like you who we have helped to meet someone special."
+    link_description = "Click here for more "
 
 [params.see_more]
     enable = true
     icon = "fa fa-venus-mars"
-    title = "Do you want to join now?"
+    title = "Email now for more information"
     subtitle = "Nothing happens to a person who does nothing. Tired of playing the dating game? Let us do the hard work for you, so you can focus on what dating should be about - having fun!"
     link_url = "/contact/"
     link_text = "Join Now"
