@@ -142,7 +142,7 @@ paginate = 10
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
     title = "As featured in"
-    subtitle = ""
+    subtitle = "Click here to read what the press have been saying about Two’s Company"
 
 [params.recent_posts]
     enable = false
