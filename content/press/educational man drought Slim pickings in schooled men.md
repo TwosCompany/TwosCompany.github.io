@@ -3,7 +3,7 @@ title = "'Educational man drought': Slim pickings in schooled men"
 date = "2015-05-03T05:00:00+00:00"
 tags = ["NZHerald"]
 categories = ["Press"]
-banner = "img/press/placeholder.png"
+banner = "img/clients/nzherald.png"
 +++
 
 > Sasha Madarasz, owner of Auckland match-making agency Two's Company, said many of her clients were professional women seeking compatible men.

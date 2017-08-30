@@ -3,7 +3,7 @@ title = "From Cinderella to casual sex"
 date = "2015-02-14T09:56:00+00:00"
 tags = ["Stuff"]
 categories = ["Press"]
-banner = "img/press/placeholder.png"
+banner = "img/clients/stuff.png"
 +++
 
 > Owner Sasha Madarasz says at any one time she has around 600 clients looking for love, the majority between the ages 30 and 45. In this age group, there has been a renewed demand for old-fashioned matchmaking.
