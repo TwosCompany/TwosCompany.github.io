@@ -8,11 +8,11 @@
         <div class="col-md-12">
                 {{ if gt (len .Site.Data.fees) 0 }}
                 {{ range sort .Site.Data.fees "weight" }}
-                <section class="fee">
+                <section class="fee" style="margin-bottom:0px">
                     <div class="row">
                         <div class="col-md-2 col-xs-3" >
                             <div class="thumbnail" style="border:none">
-                                <img alt="" src="{{ .Site.BaseURL }}/img/leaves_small.jpg">
+                                <img alt="" src="{{ .Site.BaseURL }}/img/leaves_small.jpg" style="height:40px;width:40px">
                             </div>
                         </div>
                         <div class="col-md-10 col-xs-9">
