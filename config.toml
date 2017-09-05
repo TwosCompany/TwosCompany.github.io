@@ -13,7 +13,7 @@ paginate = 10
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "shorter.david@gmail.com"
+    author = "sasha@twoscompany.co.nz"
     defaultDescription = "Take the effort out of meeting eligible, professional single people, with Two's Company Dating Agency - Auckland's most selective dating service."
     defaultKeywords = ["dating", "singles", "introductions", "dating service", "dating agency", "introduction agency", "internet dating", "auckland", "auckland dating", "personal dating", "personal introductions", "new zealand dating", "men", "women", "best dating agency", "matchmaker", "match making", "meeting people", "professional", "personals", "love", "adult dating agencies", "sites", "romance"]
 
@@ -36,7 +36,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "shorter.david@gmail.com"
+    email = "sasha@twoscompany.co.nz"
     about_us = "<p>Two’s Company Dating Agency is Auckland’s most selective dating service, dedicated to personalised matchmaking and introductions for professionals singles since 2003.</p>"
     copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
     date_format = "2006-01-02"

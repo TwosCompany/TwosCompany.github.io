@@ -11,7 +11,7 @@
   translation: "Go to contact page"
 
 - id: contactAddrTitle
-  translation: "Address"
+  translation: ""
 
 - id: contactTitle
   translation: "Contact"

@@ -4,6 +4,7 @@ date = "2015-05-03T05:00:00+00:00"
 tags = ["NZHerald"]
 categories = ["Press"]
 banner = "img/clients/nzherald.png"
+link = "http://nzh.tw/11442338"
 +++
 
 > Too often, they are narrowing their pool of potential partners by insisting on matching with educational equals, says Sasha Madarasz, owner of Auckland agency Two's Company.

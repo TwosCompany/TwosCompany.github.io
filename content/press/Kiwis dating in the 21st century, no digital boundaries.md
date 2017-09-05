@@ -1,0 +1,15 @@
++++
+title = "Kiwis dating in the 21st century, no digital boundaries"
+date = "2017-01-13T13:25:00+00:00"
+tags = ["NZHerald"]
+categories = ["Press"]
+banner = "img/clients/nzherald.png"
+link= "http://nzh.tw/11757071"
++++
+
+> 'They want Kiwis'
+> Sasha Madarasz, 42, set up dating agency Two's Company 13 years ago to a booming industry. She said it used to just be the 50+ age bracket who were using her match-making skills but > now she's getting people as young as 23 asking to be set up.
+
+> "The age bracket that's booming is the 25 to 45 range. In the past five years, or even three, it's really skyrocketed."
+
+<a href="http://nzh.tw/11757071">See more</a>
