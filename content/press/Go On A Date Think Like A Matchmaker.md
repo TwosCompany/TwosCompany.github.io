@@ -3,7 +3,7 @@ title = "Go On A Date Think Like A Matchmaker"
 date = "2017-02-04T13:25:00+00:00"
 tags = ["NZHerald"]
 categories = ["Press"]
-banner = ""
+banner = "img/press/placeholder-man-dog.jpg"
 link= "http://aforlifestyle.blogspot.co.nz/2015/02/go-on-date-think-like-matchmaker_3.html"
 +++
 
