@@ -13,7 +13,7 @@
                   {{ .Site.Params.clients.subtitle }}
                 </p>
 
-                <ul class="owl-carousel customers">
+                <ul class="owl-carousel customers width-fix-header">
                     {{ range .Site.Data.clients }}
                     <li class="item" title="{{ .name }}">
                         {{ if .url }}
