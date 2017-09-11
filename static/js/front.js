@@ -92,9 +92,10 @@ function sliderHomepage () {
 
 /* sliders */
 function sliders () {
+  //AS FEATURED IN
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
-      items: 4,
+      items: 3,
       itemsDesktopSmall: [990, 4],
       itemsTablet: [768, 2],
       itemsMobile: [480, 1]
