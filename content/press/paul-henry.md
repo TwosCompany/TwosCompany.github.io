@@ -1,9 +1,9 @@
 +++
-title = "The great Kiwi man drought"
+title = "The Paul Henry Show"
 date = "2017-04-19T13:07:31+02:00"
 tags = ["PaulHenry"]
 categories = ["Press"]
-banner = "img/press/placeholder-wine-clink.jpg"
+banner = "img/press/paulhenry.jpg"
 link = "https://www.youtube.com/watch?v=-kKSr5v4Q3M"
 +++
 
