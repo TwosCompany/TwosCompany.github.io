@@ -628,4 +628,14 @@
 
 
   </body>
+  
+  <script type="text/javascript">
+  jQuery(document).ready(function($){
+	var deviceAgent = navigator.userAgent.toLowerCase();
+
+	if (deviceAgent.match(/(iphone|ipod|ipad)/)) {
+	$('.background-image-fixed-header').css({backgroundAttachment: 'scroll', backgroundPosition: 'center'});
+	}
+	});
+  </script>
 </html>
