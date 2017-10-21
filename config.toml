@@ -137,9 +137,9 @@ paginate = 10
 
 [params.notification]
     enable = true
-    title = "Two’s Company - Coming soon to Wellington"
-    link_url = ""
-    link_text = "Click here for more information"
+    title = "You asked and now we're open in Wellington -"
+    link_url = "/wellington/"
+    link_text = "click here for more information"
 
 [params.clients]
     enable = true
