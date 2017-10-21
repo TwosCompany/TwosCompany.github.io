@@ -135,6 +135,12 @@ paginate = 10
 	link2_url = "https://youtu.be/-AC75mxHQFA"
     link2_text = "View Video"
 
+[params.notification]
+    enable = true
+    title = "Two’s Company - Coming soon to Wellington"
+    link_url = ""
+    link_text = "Click here for more information"
+
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
