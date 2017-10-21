@@ -14,6 +14,3 @@ Contact us now to make a time for a no obligation coffee. With me. In Wellington
 
 
 We're offering a special deal for Wellington clients. Be quick, it's only till Christmas!
-
-
-Contact button to lead them to contact page.
