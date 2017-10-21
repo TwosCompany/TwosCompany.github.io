@@ -202,45 +202,57 @@
 <h1 id="we-are-here-to-help-you">We are here to help you</h1>
 
 <p>If you’d like to know more about our service, please send us an enquiry. Your personal information is totally protected, and we will never share any of your details under any circumstance. You can also call us on 0800 021 522 or email Sasha.</p>
-
-
-                
+ 
 
                 <div class="heading">
-                  <h3>Contact form</h3>
+                    <h3>Contact form</h3>
                 </div>
 
                 <div id="contact-message"></div>
 
                 <form class="contact-form" method="post" action="https://formspree.io/sasha@twoscompany.co.nz">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="form-group">
-                              <label for="name">Your Name</label>
+                                <label for="name">Name</label>
                                 <input type="text" class="form-control" name="name" id="name" required>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="email">Your Email</label>
+                                <label for="email">Email</label>
                                 <input type="text" class="form-control" name="email" id="email" required>
                             </div>
                         </div>
-						<div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="phone">Your Phone Number</label>
-                                <input type="tel" class="form-control" name="number" id="number">
+                                <label for="city">City</label>
+                                <select class="form-control" id="city" name="city" required>
+                                    <option value='' selected disabled>Select City</option>      
+                                    <option value='Auckland'>Auckland</option>
+                                    <option value='Wellington'>Wellington</option>
+                                    <option value='Christchurch'>Christchurch</option>
+                                    <option value='Hamilton'>Hamilton</option>
+                                    <option value='Tauranga'>Tauranga</option>
+                                    <option value='Other'>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" name="number" id="number" required>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                              <label for="message">Your Message</label>
+                                <label for="message">Message</label>
                                 <textarea id="message" class="form-control" name="message" required></textarea>
                             </div>
                         </div>
 
                         <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>Send Message</button>
+                            <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>Send Message</button>
 
                         </div>
                     </div>
@@ -258,9 +270,7 @@
             
             <section>
 
-              <br>
-
-                <p><strong>Two's Company</strong>
+                <br> <p><strong>Two's Company</strong>
         <br>Phone : 0800 021 522
         <br>Mobile : 021 522 922 
         <br>Email : <a href="mailto:sasha@twoscompany.co.nz?Subject=twoscompany%20query" target="_top">sasha@twoscompany.co.nz</a>
@@ -288,7 +298,6 @@
       </div>
       <div id="map" />
   
-
 
 
 
