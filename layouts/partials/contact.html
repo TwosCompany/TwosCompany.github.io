@@ -5,45 +5,57 @@
 
             <section>
 
-                {{ .Content }}
-
-                {{ if isset .Site.Params "email" }}
+                {{ .Content }} {{ if isset .Site.Params "email" }}
 
                 <div class="heading">
-                  <h3>{{ i18n "contactForm" }}</h3>
+                    <h3>{{ i18n "contactForm" }}</h3>
                 </div>
 
                 <div id="contact-message"></div>
 
                 <form class="contact-form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
                     <div class="row">
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="form-group">
-                              <label for="name">{{ i18n "contactName" }}</label>
+                                <label for="name">{{ i18n "contactName" }}</label>
                                 <input type="text" class="form-control" name="name" id="name" required>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="form-group">
                                 <label for="email">{{ i18n "contactMail" }}</label>
                                 <input type="text" class="form-control" name="email" id="email" required>
                             </div>
                         </div>
-						<div class="col-sm-4">
+                        <div class="col-sm-6">
                             <div class="form-group">
-                                <label for="phone">Your Phone Number</label>
-                                <input type="tel" class="form-control" name="number" id="number">
+                                <label for="city">City</label>
+                                <select class="form-control" id="city" name="city" required>
+                                    <option value='' selected disabled>Select City</option>      
+                                    <option value='Auckland'>Auckland</option>
+                                    <option value='Wellington'>Wellington</option>
+                                    <option value='Christchurch'>Christchurch</option>
+                                    <option value='Hamilton'>Hamilton</option>
+                                    <option value='Tauranga'>Tauranga</option>
+                                    <option value='Other'>Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" name="number" id="number" required>
                             </div>
                         </div>
                         <div class="col-sm-12">
                             <div class="form-group">
-                              <label for="message">{{ i18n "contactMessage" }}</label>
+                                <label for="message">{{ i18n "contactMessage" }}</label>
                                 <textarea id="message" class="form-control" name="message" required></textarea>
                             </div>
                         </div>
 
                         <div class="col-sm-12 text-center">
-                          <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>{{ i18n "contactSend" }}</button>
+                            <button type="submit" class="btn btn-template-main"><i class="fa fa-envelope-o"></i>{{ i18n "contactSend" }}</button>
 
                         </div>
                     </div>
@@ -61,9 +73,7 @@
             {{ if isset .Site.Params "address" }}
             <section>
 
-              <br>
-
-                {{ .Site.Params.address | safeHTML }}
+                <br> {{ .Site.Params.address | safeHTML }}
 
             </section>
 
