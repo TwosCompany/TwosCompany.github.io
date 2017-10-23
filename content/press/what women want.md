@@ -3,7 +3,7 @@ title = "WHAT WOMEN WANT!"
 date = "2017-10-23T13:07:31+02:00"
 tags = ["twoscompany"]
 categories = ["Sasha"]
-banner = "img/press/paulhenry.jpg"
+banner = "img/press/what-women-want.jpg"
 +++
 
 For time immemorial men have been asking one question; one BIG question; "What do women want?!!!" There have been many books and even movies written in an attempt to answer this question. However if you have ever found yourself wondering what women are really looking for, more likely than not all the books written exploring this subject are by American authors for Americans.
