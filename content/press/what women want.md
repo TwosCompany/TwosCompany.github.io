@@ -14,7 +14,7 @@ At Two's Company I organise 80 to 100 dates every week. I do follow ups after ev
 
 **So...if you really want to know what women are looking for read on!**
 
-![choices](/img/press/www/menu.jpeg)
+{{< figure src="/img/press/www/menu.jpeg" class="responsivemdimage" >}}
 
 1. It may come as a surprise to know for instance that the vast majority of women are looking for **a man who has his own life and his own friends!** Contrary to the popular myth that women want to lock their men away, the truth is women want to know that their men are respected by their friends and peers and that they enjoy their own lives and hobbies. 
 
@@ -24,7 +24,7 @@ At Two's Company I organise 80 to 100 dates every week. I do follow ups after ev
 
 3. If a man is **successful and happy in the work he is doing**, whatever that may be, that is great. If not as long as he is actively making plans or setting goals to achieve success in this area that will satisfy him...it's all good!!
 
-![sunset](/img/press/www/sunset.jpeg)
+{{< figure src="/img/press/www/sunset.jpeg" class="responsivemdimage" >}}
 
 4. Now a big issue for women is in wanting a man who is **a decision maker with the initiative needed to make plans**. While women are totally capable of making plans for a weekend away, booking restaurants and organising dinner parties with friends; it **totally rocks their world** when their men do it. There are hundreds of ways to demonstrate your love for her and her value to you...plus, it screams **ROMANCE!** Doing this will never fail to make her desire you in ways that you would never imagine!
 
@@ -34,7 +34,7 @@ At Two's Company I organise 80 to 100 dates every week. I do follow ups after ev
 
 When all is said and done if we as women know with absolute certainty that **our man loves and values us** then we my friends are **putty in your hands**. 
 
-![sunset](/img/press/www/heart.jpeg)
+{{< figure src="/img/press/www/heart.jpeg" class="responsivemdimage" >}}
 
 If you’re currently single and looking for someone fabulous, let **Two’s Company** take the guesswork out of dating by [contacting](/contact) us now.
 
