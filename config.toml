@@ -137,7 +137,7 @@ paginate = 10
 
 [params.notification]
     enable = true
-    title = "Now open in Wellington"
+    title = "Now open in Wellington !"
     link_url = "/wellington/"
     link_text = "Click here for more information"
 
