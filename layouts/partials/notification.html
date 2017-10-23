@@ -1,11 +1,11 @@
 {{ if isset .Site.Params "notification" }} {{ if .Site.Params.notification.enable }}
-<div class="text-center" style="font-family: 'Julius Sans One', sans-serif; font-size: 16px; font-style: italic; font-weight: bold; ">
+<div class="text-center" style="font-family: 'Julius Sans One', sans-serif; font-size: 18px; font-style: italic; font-weight: bold; ">
     <div class="alert alert-warning alert-dismissible show" style="margin-bottom: 0px" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button> {{ .Site.Params.notification.title }} 
                   {{ if isset .Site.Params.notification "link_url"}} {{ if .Site.Params.notification.link_url }}
-                    <a href="{{.Site.Params.notification.link_url}}" class="alert-link">{{.Site.Params.notification.link_text}}</a>.
+                     <a style="font-size: 12px" href="{{.Site.Params.notification.link_url}}" class="alert-link">{{.Site.Params.notification.link_text}}</a>.
                   {{end}}{{end}}
     </div>
 </div>
