@@ -1,6 +1,6 @@
 +++
 title = "WHAT WOMEN WANT!"
-date = "2017-10-23T13:07:31+02:00"
+date = "2014-05-03T05:00:00+00:00"
 tags = ["twoscompany"]
 categories = ["Sasha"]
 banner = "img/press/what-women-want.jpg"
