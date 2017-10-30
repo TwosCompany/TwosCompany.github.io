@@ -6,7 +6,7 @@ id = "wellington"
 showheader = false
 +++
 
-You asked and now we're here! 
+Wellington, you asked and now we're here! 
 -----------------------------
 
 We have been helping people meet their ideal match in Auckland since 2003. 
