@@ -1,6 +1,6 @@
 +++
 title = "Good morning Two's Company"
-date = "2017-03-19T13:07:31+02:00"
+date = "2998-03-19T13:07:31+02:00"
 tags = ["GoodMorning"]
 categories = ["Press"]
 banner = "img/press/GoodMorning.jpg"
