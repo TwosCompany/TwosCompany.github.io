@@ -35,4 +35,3 @@ When all is said and done if we as women know with absolute certainty that **our
 {{< figure src="/img/press/www/heart.jpeg" class="responsivemdimage" >}}
 
 If you’re currently single and looking for someone fabulous, let **Two’s Company** take the guesswork out of dating by [contacting](/contact) us now.
-
