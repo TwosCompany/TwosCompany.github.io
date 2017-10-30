@@ -52,7 +52,7 @@ paginate = 10
     longitude = "174.7772232"
 
 [Permalinks]
-    press = "/press/:filename/"
+    press = "/press/:year/:month/:day/:filename/"
 
 [[menu.main]]
     name = "Home"
