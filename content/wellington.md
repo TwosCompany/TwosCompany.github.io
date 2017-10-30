@@ -7,8 +7,10 @@ showheader = false
 +++
 
 You asked and now we're here! 
+-----------------------------
 
-We have been helping people meet their ideal match in Auckland since 2003. Over the years the number of requests we've had from Wellingtonians has inspired me to bring our unique matchmaking to your beautiful city.
+We have been helping people meet their ideal match in Auckland since 2003. 
+Over the years the number of requests we've had from Wellingtonians has inspired me to bring our unique matchmaking to your beautiful city.
 
 [Contact](/contact) us now to make a time for a no obligation coffee. With me. In Wellington.
 
