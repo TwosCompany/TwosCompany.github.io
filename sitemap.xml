@@ -16,6 +16,13 @@
   </url>
   
   <url>
+    <loc>https://twoscompany.github.io/press/dating-advice/</loc>
+    <lastmod>2997-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://twoscompany.github.io/press/go-on-a-date-think-like-a-matchmaker/</loc>
     <lastmod>2017-02-04T13:25:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -72,6 +79,13 @@
   <url>
     <loc>https://twoscompany.github.io/</loc>
     <lastmod>2999-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://twoscompany.github.io/tags/datingadvice/</loc>
+    <lastmod>2997-03-19T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
