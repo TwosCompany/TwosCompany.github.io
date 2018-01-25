@@ -1,5 +1,5 @@
 +++
-title = "Auckland’s Most Selective Dating Agency Connects Singles Throughout New Zealand"
+title = "New Zealand’s Most Selective Dating Agency Connects Singles Throughout New Zealand"
 date = "2997-03-19T13:07:31+02:00"
 tags = ["DatingAdvice"]
 categories = ["Press"]

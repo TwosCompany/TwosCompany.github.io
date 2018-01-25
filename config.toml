@@ -129,7 +129,7 @@ paginate = 10
 	
 [params.header]
     enable = true
-    title = "Two’s Company - Auckland’s most selective dating agency"
+    title = "Two’s Company - NZ’s most selective dating agency"
     link_url = "/contact/"
     link_text = "Enquire Now"
 	link2_url = "https://youtu.be/-AC75mxHQFA"
