@@ -20,21 +20,37 @@ $(function () {
   counters()
   demo()
   contactForm()
+  contactFormComplete()
 })
 
 // Ajax contact
-function contactForm () {
+function contactFormComplete() {
+  $('document').ready(function () {
+    var form = $('.contact-form');
+    var formisComplete = window.location.href.endsWith("?complete");
+
+    if (form.length === 1 && formisComplete) {
+      $('#contact-message')
+        .html('<div class="alert alert-success" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>Thank you for getting in touch. We will get back to you soon!</div>')
+        .fadeIn()
+    }
+  });
+}
+
+function contactForm() {
   var form = $('.contact-form')
   form.submit(function () {
     $this = $(this)
     $.post($(this).attr('action'),
       $this.serialize(),
       function () {
-        $this[0].reset() // clear form
-
-        $('#contact-message')
-        .html('<div class="alert alert-success" role="alert"><button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>Thank you for getting in touch. We will get back to you soon!</div>')
-        .fadeIn()
+        var alreadyComplete = window.location.href.endsWith("?complete")
+        if (!alreadyComplete) {
+          var completeUrl = window.location.href + "?complete"
+          window.location.href = completeUrl;
+        }else{
+          window.location.reload();
+        }
       }
       , 'json')
     return false
@@ -42,7 +58,7 @@ function contactForm () {
 }
 
 /* for demo purpose only - can be deleted */
-function demo () {
+function demo() {
   if ($.cookie('themeCSSpath')) {
     $('link#theme-stylesheet').attr('href', $.cookie('themeCSSpath'))
   }
@@ -53,7 +69,7 @@ function demo () {
 
       $('link#theme-stylesheet').attr('href', themeCSSpath)
 
-      $.cookie('themeCSSpath', themeCSSpath, {expires: 365, path: '/'})
+      $.cookie('themeCSSpath', themeCSSpath, { expires: 365, path: '/' })
     }
 
     return false
@@ -68,7 +84,7 @@ function demo () {
 
       $('body').addClass(themeLayout)
 
-      $.cookie('themeLayout', themeLayout, {expires: 365, path: '/'})
+      $.cookie('themeLayout', themeLayout, { expires: 365, path: '/' })
     }
 
     return false
@@ -76,7 +92,7 @@ function demo () {
 }
 
 /* slider homepage */
-function sliderHomepage () {
+function sliderHomepage() {
   if ($('#slider').length) {
     // var owl = $('#slider')
 
@@ -91,7 +107,7 @@ function sliderHomepage () {
 }
 
 /* sliders */
-function sliders () {
+function sliders() {
   //AS FEATURED IN
   if ($('.owl-carousel').length) {
     $('.customers').owlCarousel({
@@ -141,7 +157,7 @@ function sliders () {
 }
 
 /* menu sliding */
-function menuSliding () {
+function menuSliding() {
   $('.dropdown').on('show.bs.dropdown', function () {
     if ($(window).width() > 750) {
       $(this).find('.dropdown-menu').first().stop(true, true).slideDown()
@@ -160,9 +176,9 @@ function menuSliding () {
 }
 
 /* animations */
-function animations () {
+function animations() {
   var delayTime = 0
-  $('[data-animate]').css({opacity: '0'})
+  $('[data-animate]').css({ opacity: '0' })
   $('[data-animate]').waypoint(function () {
     delayTime += 150
     $(this).delay(delayTime).queue(function (next) {
@@ -174,12 +190,12 @@ function animations () {
       // $(this).toggleClass($(this).data('animate'))
     })
   }, {
-    offset: '90%',
-    triggerOnce: true
-  })
+      offset: '90%',
+      triggerOnce: true
+    })
 
   $('[data-animate-hover]').hover(function () {
-    $(this).css({opacity: 1})
+    $(this).css({ opacity: 1 })
     $(this).addClass('animated')
     $(this).removeClass($(this).data('animate'))
     $(this).addClass($(this).data('animate-hover'))
@@ -189,13 +205,13 @@ function animations () {
   })
 }
 
-function animationsSlider () {
+function animationsSlider() {
   var delayTimeSlider = 400
 
   $('.owl-item:not(.active) [data-animate-always]').each(function () {
     $(this).removeClass('animated')
     $(this).removeClass($(this).data('animate-always'))
-    $(this).stop(true, true, true).css({opacity: 0})
+    $(this).stop(true, true, true).css({ opacity: 0 })
   })
 
   $('.owl-item.active [data-animate-always]').each(function () {
@@ -211,7 +227,7 @@ function animationsSlider () {
 }
 
 /* counters */
-function counters () {
+function counters() {
   $('.counter').counterUp({
     delay: 10,
     time: 1000
@@ -219,7 +235,7 @@ function counters () {
 }
 
 /* picture zoom */
-function pictureZoom () {
+function pictureZoom() {
   $('.product .image, .post .image, .photostream div').each(function () {
     var imgHeight = $(this).find('img').height()
     $(this).height(imgHeight)
@@ -227,7 +243,7 @@ function pictureZoom () {
 }
 
 /* full screen intro */
-function fullScreenContainer () {
+function fullScreenContainer() {
   var screenWidth = $(window).width() + 'px'
   var screenHeight = '500px'
 
@@ -241,7 +257,7 @@ function fullScreenContainer () {
   })
 }
 
-function utils () {
+function utils() {
   /* tooltips */
   $('[data-toggle="tooltip"]').tooltip()
 
@@ -273,7 +289,7 @@ function utils () {
     }
   })
 
-  function scrollTo (fullUrl) {
+  function scrollTo(fullUrl) {
     var parts = fullUrl.split('#')
     var trgt = parts[1]
     var targetOffset = $('#' + trgt).offset()
@@ -290,7 +306,7 @@ function utils () {
 }
 
 /* product detail gallery */
-function productDetailGallery (confDetailSwitch) {
+function productDetailGallery(confDetailSwitch) {
   $('.thumb:first').addClass('active')
   var timer = setInterval(autoSwitch, confDetailSwitch)
 
@@ -307,7 +323,7 @@ function productDetailGallery (confDetailSwitch) {
     timer = setInterval(autoSwitch, confDetailSwitch)
   })
 
-  function autoSwitch () {
+  function autoSwitch() {
     var nextThumb = $('.thumb.active').closest('div').next('div').find('.thumb')
     if (nextThumb.length === 0) {
       nextThumb = $('.thumb:first')
@@ -315,7 +331,7 @@ function productDetailGallery (confDetailSwitch) {
     switchImage(nextThumb)
   }
 
-  function switchImage (thumb) {
+  function switchImage(thumb) {
     $('.thumb').removeClass('active')
     var bigUrl = thumb.attr('href')
     thumb.addClass('active')
@@ -324,7 +340,7 @@ function productDetailGallery (confDetailSwitch) {
 }
 
 /* product detail sizes */
-function productDetailSizes () {
+function productDetailSizes() {
   $('.sizes a').click(function (e) {
     e.preventDefault()
     $('.sizes a').removeClass('active')
