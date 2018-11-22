@@ -1,5 +1,5 @@
 +++
-title = "Younger people more attracted to dating agencies
+title = "Younger people more attracted to dating agencies"
 date = "2998-03-17T13:07:31+02:00"
 tags = ["NZHerald"]
 categories = ["Press"]
