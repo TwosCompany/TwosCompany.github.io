@@ -16,6 +16,13 @@
   </url>
   
   <url>
+    <loc>http://twoscompany.co.nz/press/newstalkzb/</loc>
+    <lastmod>2998-03-18T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://twoscompany.co.nz/press/dating-advice/</loc>
     <lastmod>2997-03-19T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -105,6 +112,13 @@
   <url>
     <loc>http://twoscompany.co.nz/tags/goodmorning/</loc>
     <lastmod>2998-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/newstalkzb/</loc>
+    <lastmod>2998-03-18T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
