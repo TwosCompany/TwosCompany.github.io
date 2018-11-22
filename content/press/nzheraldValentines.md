@@ -1,0 +1,16 @@
++++
+title = "Younger people more attracted to dating agencies
+date = "2998-03-17T13:07:31+02:00"
+tags = ["NZHerald"]
+categories = ["Press"]
+banner = "img/press/nzheraldsash.jpg"
+link = "https://www.nzherald.co.nz/lifestyle/news/article.cfm?c_id=6&objectid=11990462"
++++
+
+Tinder has become a slippery slope into dating agencies for the younger crowd.
+
+Five years ago around 20 people under 30 were looking for love through dating agency Two's Company. Now that number hovers around 80.
+
+Agency director Sasha Madarasz spoke to the Herald ahead of Valentine's Day this Wednesday.
+
+In the last five years, Madarasz had seen a huge shift in younger people using dating agencies. Most of her clients used to be in the 37 to 55 age range, now they're in the 25 to 40 age range.
