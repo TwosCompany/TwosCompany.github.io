@@ -23,7 +23,8 @@ deploy:
     skip_cleanup: true
     github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
     keep_history: true
-    target_branch: test
+    target_branch: ${DEPLOY_BRANCH}
+    fdqn: twoscompany.co.nz
     local_dir: ${SOURCE_DIR}
     on:
         branch: ${BUILD_BRANCH}
