@@ -5,9 +5,6 @@ env:
     - SOURCE_DIR="public"
     - BUILD_BRANCH="source"
     - DEPLOY_BRANCH="master"
-    - GIT_NAME="David Shorter"
-    - GIT_EMAIL="shorter.david@gmail.com"
-    - ENCRYPTION_LABEL="e9ba5a00b9e2"
 
 install:
     - chmod a+x "./build/install-hugo.sh"
@@ -21,7 +18,7 @@ script:
 deploy:
     provider: pages
     skip_cleanup: true
-    github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+    github_token: $GITHUB_TOKEN
     keep_history: true
     target_branch: ${DEPLOY_BRANCH}
     fdqn: twoscompany.co.nz
