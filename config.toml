@@ -127,6 +127,12 @@ paginate = 10
     link_text = "Enquire Now"
     link_description = "Enquire Now"
 	
+[params.calltoaction]
+    enable = true
+    title = "Who said you have to leave the house to date?"
+    link_url = "/lockdown/"
+    link_text = "Find out more . . ."
+
 [params.header]
     enable = true
     title = "Two’s Company - NZ’s most selective dating agency"
@@ -137,7 +143,7 @@ paginate = 10
 
 [params.notification]
     enable = true
-    title = "Now open in Wellington !"
+    title = "Also available in Wellington"
     link_url = "/wellington/"
     link_text = "Click here for more information"
 
