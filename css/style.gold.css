@@ -1798,6 +1798,17 @@ fieldset[disabled] .btn-template-primary.active {
    padding: 20px 0;
  
 }
+.alert-calltoaction {
+  color: #8a6d3b;
+  background-color:gold;
+  border-color: goldenrod;
+}
+
+.alert-notification {
+  color: #383d41;
+  background-color: lightgrey;
+  border-color: #d6d8db;
+}
 
 #heading-breadcrumbs:after {
    content : "";
