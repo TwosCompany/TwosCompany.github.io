@@ -1,6 +1,6 @@
 {{ if isset .Site.Params "notification" }} {{ if .Site.Params.notification.enable }}
 <div class="text-center" style="font-family: 'Julius Sans One', sans-serif; font-size: 18px; font-style: italic; font-weight: bold; ">
-    <div class="alert alert-warning alert-dismissible show" style="margin-bottom: 0px" role="alert">
+    <div class="alert alert-notification alert-dismissible show" style="margin-bottom: 0px" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button> {{ .Site.Params.notification.title }} 

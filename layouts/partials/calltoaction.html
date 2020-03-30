@@ -1,11 +1,11 @@
 {{ if isset .Site.Params "calltoaction" }} {{ if .Site.Params.calltoaction.enable }}
 <div class="text-center" style="font-family: 'Julius Sans One', sans-serif; font-size: 18px; font-style: italic; font-weight: bold; ">
-    <div class="alert alert-warning alert-dismissible show" style="margin-bottom: 0px" role="alert">
+    <div class="alert alert-calltoaction alert-dismissible show" style="margin-bottom: 0px" role="alert">
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button> {{ .Site.Params.calltoaction.title }} 
                   {{ if isset .Site.Params.calltoaction "link_url"}} {{ if .Site.Params.calltoaction.link_url }}
-                     <a style="font-size: 12px" href="{{.Site.Params.calltoaction.link_url}}" class="alert-link">{{.Site.Params.calltoaction.link_text}}</a>.
+                     <a style="font-size: 22px" href="{{.Site.Params.calltoaction.link_url}}" class="alert-link">{{.Site.Params.calltoaction.link_text}}</a>.
                   {{end}}{{end}}
     </div>
 </div>

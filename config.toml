@@ -129,9 +129,9 @@ paginate = 10
 	
 [params.calltoaction]
     enable = true
-    title = "Who said you have to leave the house to date?"
+    title = ""
     link_url = "/lockdown/"
-    link_text = "Find out more . . ."
+    link_text = "Who said you have to leave the house to date? Find out more ..."
 
 [params.header]
     enable = true
