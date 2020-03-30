@@ -124,6 +124,12 @@
   </url>
   
   <url>
+    <loc>http://twoscompany.co.nz/lockdown/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://twoscompany.co.nz/tags/newstalkzb/</loc>
     <lastmod>2998-03-18T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
