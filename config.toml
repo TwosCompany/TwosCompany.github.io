@@ -132,7 +132,7 @@ paginate = 10
     title = "Two’s Company - NZ’s most selective dating agency"
     link_url = "/contact/"
     link_text = "Enquire Now"
-	link2_url = "https://youtu.be/-AC75mxHQFA"
+    link2_url = "https://youtu.be/-kKSr5v4Q3M"
     link2_text = "View Video"
 
 [params.notification]
@@ -151,7 +151,7 @@ paginate = 10
 
 [params.recent_posts]
     enable = false
-	enableFooter = true
+    enableFooter = true
     title = "Latest News"
     subtitle = "Check out what the media is saying about Introduction Agency - Two's Company, Aucklands most respected Dating Agency since 2003"
 
