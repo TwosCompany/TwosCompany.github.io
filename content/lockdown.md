@@ -30,7 +30,7 @@ What a great way to break the monotony!
 
 If you are interested, we can set up a video meeting between you and I to see if we have the right people to introduce you to. You can either start ‘meeting' people straight away, or hold off till the lockdown is over. The meeting is no obligation and you only pay when you are ready to go ahead.
 
-The current crisis is Mother Nature telling us to slow down and play the long game. We are so use to instant gratification that we can often miss out on opportunities that are right in front of us. We just need us to slow down enough to see.
+The current crisis is Mother Nature telling us to slow down and play the long game. We are so used to instant gratification that we can often miss out on opportunities that are right in front of us. We just need to slow down enough to see.
 
 If you are interested click [here](/contact)  to send me an email to find out more.
 
