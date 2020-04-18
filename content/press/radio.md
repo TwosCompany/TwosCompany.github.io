@@ -3,7 +3,7 @@ title = "Radio - Dating In Lockdown"
 date = "2998-04-19T13:07:31+02:00"
 tags = ["Lockdown"]
 categories = ["Press"]
-banner = "img/press/what-women-want.jpg"
+banner = "img/press/placeholder-computer.jpg"
 +++
 
 Listen to Sasha on Radio.
