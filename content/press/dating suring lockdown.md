@@ -1,0 +1,14 @@
++++
+title = "The AM Show - Dating during lockdown"
+date = "3001-04-19T13:07:31+02:00"
+tags = ["Lockdown"]
+categories = ["Press"]
+banner = "img/press/am show lockdown.JPG"
+link = "https://www.newshub.co.nz/home/lifestyle/2020/04/dating-during-lockdown.html"
++++
+
+Are you single and getting a bit lonely? Well what a better time to get to know someone than in lockdown.
+
+Obviously we can't actually meet potential lovers in person just yet but thanks to the internet and video calling apps we're still able to interact with those outside our bubble. 
+
+To give us the rules and guidelines on online dating is Two's Company Owner Sasha Madarasz spoke to The AM Show.
