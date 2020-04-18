@@ -2342,6 +2342,12 @@ fieldset[disabled] .btn-template-primary.active {
 #blog-post #comment-form {
   margin-bottom: 20px;
 }
+
+/* Custome clearing of date */
+#blog-post .text-right{
+  display: none;
+}
+
 .product {
   background: #fff;
   border-bottom: solid 1px #e6e6e6;
