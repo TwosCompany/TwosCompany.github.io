@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Dating Service Auckland and Wellington | Dating Agency | Introduction Agency</title>
+    <link>http://twoscompany.co.nz/categories/</link>
+    <description>Recent content in Categories on Dating Service Auckland and Wellington | Dating Agency | Introduction Agency</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-nz</language>
+    
+	<atom:link href="http://twoscompany.co.nz/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Press</title>
+      <link>http://twoscompany.co.nz/categories/press/</link>
+      <pubDate>Sat, 04 Feb 2017 13:25:00 +0000</pubDate>
+      
+      <guid>http://twoscompany.co.nz/categories/press/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sasha</title>
+      <link>http://twoscompany.co.nz/categories/sasha/</link>
+      <pubDate>Sat, 03 May 2014 05:00:00 +0000</pubDate>
+      
+      <guid>http://twoscompany.co.nz/categories/sasha/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
