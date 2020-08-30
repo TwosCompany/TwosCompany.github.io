@@ -1,51 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://twoscompany.co.nz/categories/</loc>
-    <lastmod>2017-02-04T13:25:00+00:00</lastmod>
+    <loc>http://twoscompany.co.nz/press/dating-suring-lockdown/</loc>
+    <lastmod>3001-04-19T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://twoscompany.co.nz/</loc>
-    <lastmod>2017-02-04T13:25:00+00:00</lastmod>
+    <loc>http://twoscompany.co.nz/press/paul-henry/</loc>
+    <lastmod>2999-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/radio/</loc>
+    <lastmod>2998-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/good-morning--2005/</loc>
+    <lastmod>2998-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/good-morning-2007/</loc>
+    <lastmod>2998-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/newstalkzb/</loc>
+    <lastmod>2998-03-18T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/nzheraldvalentines/</loc>
+    <lastmod>2998-03-17T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/dating-advice/</loc>
+    <lastmod>2997-03-19T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://twoscompany.co.nz/press/go-on-a-date-think-like-a-matchmaker/</loc>
-    <lastmod>2017-02-04T13:25:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://twoscompany.co.nz/tags/nzherald/</loc>
-    <lastmod>2017-02-04T13:25:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://twoscompany.co.nz/categories/press/</loc>
-    <lastmod>2017-02-04T13:25:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://twoscompany.co.nz/press/</loc>
-    <lastmod>2017-02-04T13:25:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://twoscompany.co.nz/tags/</loc>
     <lastmod>2017-02-04T13:25:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -66,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://twoscompany.co.nz/press/intellectual-man-drought-foils-search-for-mr-right-copy/</loc>
+    <loc>http://twoscompany.co.nz/press/intellectual-man-drought-foils-search-for-mr-right---copy/</loc>
     <lastmod>2015-05-03T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -80,31 +93,16 @@
   </url>
   
   <url>
-    <loc>http://twoscompany.co.nz/tags/stuff/</loc>
-    <lastmod>2015-02-14T09:56:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://twoscompany.co.nz/categories/sasha/</loc>
-    <lastmod>2014-05-03T05:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://twoscompany.co.nz/tags/twoscompany/</loc>
-    <lastmod>2014-05-03T05:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://twoscompany.co.nz/press/what-women-want/</loc>
     <lastmod>2014-05-03T05:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/categories/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -114,9 +112,23 @@
   </url>
   
   <url>
+    <loc>http://twoscompany.co.nz/</loc>
+    <lastmod>3001-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://twoscompany.co.nz/lockdown/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/datingadvice/</loc>
+    <lastmod>2997-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -132,9 +144,85 @@
   </url>
   
   <url>
+    <loc>http://twoscompany.co.nz/tags/goodmorning/</loc>
+    <lastmod>2998-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/lockdown/</loc>
+    <lastmod>3001-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/newstalkzb/</loc>
+    <lastmod>2998-03-18T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/nzherald/</loc>
+    <lastmod>2998-03-17T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/paulhenry/</loc>
+    <lastmod>2999-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/categories/press/</loc>
+    <lastmod>3001-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/</loc>
+    <lastmod>3001-04-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/categories/sasha/</loc>
+    <lastmod>2014-05-03T05:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/stuff/</loc>
+    <lastmod>2015-02-14T09:56:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://twoscompany.co.nz/stories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/tags/twoscompany/</loc>
+    <lastmod>2014-05-03T05:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0</priority>
   </url>
   
   <url>
