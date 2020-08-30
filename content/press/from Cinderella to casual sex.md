@@ -3,7 +3,7 @@ title = "From Cinderella to casual sex"
 date = "2015-02-14T09:56:00+00:00"
 tags = ["Stuff"]
 categories = ["Press"]
-banner = "img/clients/stuff.png"
+banner = "img/press/stuff.JPG"
 link = "http://www.stuff.co.nz/life-style/love-sex/66159885/from-cinderella-to-casual-sex"
 +++
 

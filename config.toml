@@ -128,7 +128,7 @@ paginate = 10
     link_description = "Enquire Now"
 	
 [params.calltoaction]
-    enable = true
+    enable = false
     title = ""
     link_url = "/lockdown/"
     link_text = "Who said you have to leave the house to date? Find out more ..."
