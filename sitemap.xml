@@ -23,7 +23,14 @@
   </url>
   
   <url>
-    <loc>http://twoscompany.co.nz/press/good-morning/</loc>
+    <loc>http://twoscompany.co.nz/press/good-morning--2005/</loc>
+    <lastmod>2998-03-19T13:07:31+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://twoscompany.co.nz/press/good-morning-2007/</loc>
     <lastmod>2998-03-19T13:07:31+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
