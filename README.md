@@ -13,7 +13,7 @@ Source code is setup into two branches
 * [install choco] (https://github.com/chocolatey/choco/wiki/Installation)
 * run command `choco install hugo`
 * clone source with git `git clone https://github.com/TwosCompany/TwosCompany.github.io.git`
-* run command `git clone https://github.com/TwosCompany/hugo-universal-theme ./themes/hugo-universal-theme` to pull in the theme.
+* run command `git clone https://github.com/devcows/hugo-universal-theme ./themes/hugo-universal-theme` to pull in the theme.
 * run `hugo serve`
 * browse to `http://localhost:1313/`
 
