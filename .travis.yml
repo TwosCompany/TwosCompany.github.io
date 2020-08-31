@@ -12,8 +12,8 @@ install:
 
 script:
     - git clone https://github.com/TwosCompany/hugo-universal-theme ./themes/hugo-universal-theme
-    - .local/bin/hugo version
-    - .local/bin/hugo -v
+    - ./local/bin/hugo version
+    - ./local/bin/hugo -v
 
 deploy:
     provider: pages
