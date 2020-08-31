@@ -1,11 +1,15 @@
-HUGO_VERSION=0.18.1
+
+HUGO_VERSION=0.74.3
+DL_SUFFIX=Linux-64bit
 
 set -x
 set -e
 
-# Install Hugo if not already cached or upgrade an old version.
-if [ ! -e .hugo ] || ! [[ `hugo version` =~ v${HUGO_VERSION} ]]; then
-  wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -P .hugo/
-  tar xvzf .hugo/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz -C .hugo/
-  cp .hugo/hugo_${HUGO_VERSION}_linux_amd64/hugo_${HUGO_VERSION}_linux_amd64 ./hugo
+if [ ! -x local/bin/hugo ]
+then
+  mkdir -p local/bin local/tmp
+  wget -P local/tmp/ https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_${DL_SUFFIX}.tar.gz
+  tar -xvf local/tmp/hugo_${HUGO_VERSION}_${DL_SUFFIX}.tar.gz -C local/tmp
+  mv local/tmp/hugo local/bin/hugo
+  chmod +x local/bin/hugo
 fi
