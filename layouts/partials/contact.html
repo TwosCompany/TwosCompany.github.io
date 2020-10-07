@@ -5,7 +5,7 @@
 
             <section>
 
-                {{ .Content }} {{ if isset .Site.Params "email" }}
+                {{ .Content }} {{ if isset .Site.Params "formspreetoken" }}
 
                 <div class="heading">
                     <h3>{{ i18n "contactForm" }}</h3>
@@ -13,7 +13,7 @@
 
                 <div id="contact-message"></div>
 
-                <form class="contact-form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
+                <form class="contact-form" method="post" action="https://formspree.io/f/{{ .Site.Params.formspreetoken }}">
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="form-group">

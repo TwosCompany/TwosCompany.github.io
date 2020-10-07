@@ -36,7 +36,7 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "sasha@twoscompany.co.nz"
+    formspreetoken = "xeqpezej"
     about_us = "<p>Two’s Company Dating Agency is Auckland’s and Wellington’s most selective dating service, dedicated to personalised matchmaking and introductions for professionals singles since 2003.</p>"
     copyright = "Copyright (c) 2003 - 2017, Two's Company LTD; all rights reserved."
     date_format = "2006-01-02"
