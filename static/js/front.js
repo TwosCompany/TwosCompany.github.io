@@ -19,7 +19,6 @@ $(function () {
   animations()
   counters()
   demo()
-  contactForm()
   contactFormComplete()
 })
 
@@ -35,26 +34,6 @@ function contactFormComplete() {
         .fadeIn()
     }
   });
-}
-
-function contactForm() {
-  var form = $('.contact-form')
-  form.submit(function () {
-    $this = $(this)
-    $.post($(this).attr('action'),
-      $this.serialize(),
-      function () {
-        var alreadyComplete = window.location.href.endsWith("?complete")
-        if (!alreadyComplete) {
-          var completeUrl = window.location.href + "?complete"
-          window.location.href = completeUrl;
-        }else{
-          window.location.reload();
-        }
-      }
-      , 'json')
-    return false
-  })
 }
 
 /* for demo purpose only - can be deleted */
